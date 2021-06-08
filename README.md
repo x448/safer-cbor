@@ -8,14 +8,6 @@ Package cbor provides helper functions for encoding and decoding CBOR using the 
 
 2. CBOR decoder detects and rejects duplicate map keys, which is an important requirement in security sensitive applications.
 
-## Performance
-
-There's a tradeoff between performance and security. 
-
-Sorting is slower than not sorting.  Detecting duplicate keys is slower than not detecting them. And so on.
-
-Please don't use this to claim other CBOR libraries using less secure options are faster.
-
 ## Installation
 
 Copy cbor.go.txt as cbor.go into your project and use.
@@ -25,6 +17,14 @@ Copy cbor.go.txt as cbor.go into your project and use.
 For more info, see:
   * github.com/fxamacker/cbor
   * github.com/x448/safer-cbor
+
+## Performance
+
+There's a tradeoff between performance and security. 
+
+Sorting is slower than not sorting.  Detecting duplicate keys is slower than not detecting them. And so on.
+
+Please don't use this to claim other CBOR libraries using less secure options are faster.
 
 ## License
 
