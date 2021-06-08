@@ -12,6 +12,14 @@ It provides helper functions for encoding and decoding CBOR using the [Go](https
 
 Copy [cbor.go.txt](https://github.com/x448/safer-cbor/blob/master/cbor.go.txt) as cbor.go into your project and use.
 
+You may want to adjust the limits on number of array elements and map pairs.
+
+```Go
+// Increase these limits if you think they're too small. 
+const MaxArrayElements = 1024 * 256 // this limit can be set as high as 2147483647
+const MaxMapPairs = 1024 * 256      // this limit can be set as high as 2147483647
+```
+
 ## CBOR Resources
 
 For more info, see:
