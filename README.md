@@ -10,7 +10,7 @@ It provides helper functions for encoding and decoding CBOR using the [Go](https
 
 ## CBOR Installation
 
-Copy cbor.go.txt as cbor.go into your project and use.
+Copy [cbor.go.txt](https://github.com/x448/safer-cbor/blob/master/cbor.go.txt) as cbor.go into your project and use.
 
 ## CBOR Resources
 
