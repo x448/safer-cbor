@@ -28,6 +28,6 @@ Please don't use this to claim other CBOR libraries using less secure options ar
 
 ## License
 
-safer-cbor is licensed under the MIT License.  See [LICENSE] file for the full text of the license.
+safer-cbor is licensed under the MIT License.  See [LICENSE](LICENSE) file for the full text of the license.
 
 Copyright © 2021 Montgomery Edwards⁴⁴⁸
