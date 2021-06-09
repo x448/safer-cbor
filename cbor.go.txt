@@ -60,6 +60,9 @@ var (
 )
 
 func init() {
+        // TODO: move the calls to EncMode() and DecMode() to
+	// run before init() and use init() only to check for error.
+
 	var err error
 	if encMode, err = encOptions.EncMode(); err != nil {
 		panic(err)
