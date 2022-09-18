@@ -1,3 +1,7 @@
+// Copyright © 2021 Montgomery Edwards⁴⁴⁸ (github.com/x448)
+// This file is provided under MIT License.
+// https://github.com/x448/safer-cbor
+
 // Package cbor provides helper functions for encoding and decoding CBOR
 // by wrapping functions provided by github.com/fxamacker/cbor/v2.
 //
@@ -14,10 +18,6 @@
 // For more info, see:
 //   * github.com/fxamacker/cbor
 //   * github.com/x448/safer-cbor
-//
-// Copyright © 2021 Montgomery Edwards⁴⁴⁸
-// This file is provided under MIT License.
-//
 package cbor
 
 import (
